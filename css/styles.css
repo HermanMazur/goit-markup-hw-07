@@ -21,6 +21,7 @@ img {
   display: block;
 }
 
+
 :root {
   --first-color-text: #212121;
   --second-color-text: #757575;
@@ -61,13 +62,13 @@ body {
   border-radius: 2px;
 }
 
-.header-list {
+.header-list-all {
   display: flex;
   margin-left: 93px;
   align-items: center;
 }
 
-.header-link:not(:last-child) {
+.header-list:not(:last-child) {
   margin-right: 50px;
 }
 
