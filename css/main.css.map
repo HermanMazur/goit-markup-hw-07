@@ -8,8 +8,8 @@
         "../sass/base/_common.scss",
         "../sass/utils/_hidden.scss",
         "../sass/components/_container.scss",
-        "../sass/_header.scss",
-        "../sass/_heroportfolio.scss"
+        "../sass/layouts/_header.scss",
+        "../sass/layouts/_heroportfolio.scss"
     ],
     "names": [],
     "file": "main.css"
