@@ -1,4 +1,4 @@
-p,
+/* p,
 h1,
 h2,
 h3,
@@ -19,27 +19,21 @@ button {
 
 img {
   display: block;
-}
+} */
 
 
-:root {
+/* :root {
   --first-color-text: #212121;
   --second-color-text: #757575;
   --third-color-text: #ffffff;
   --accent-color: #2196f3;
-}
+} */
 
-body {
+/* body {
   font-family: "Roboto", "sans serif";
   background-color: #ffffff;
 }
 
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
 
 .list {
   list-style: none;
@@ -47,11 +41,30 @@ body {
 
 .link {
   text-decoration: none;
-}
+} */
 
-/*==============Header==============*/
+/* .vissualy-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  bottom: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+} */
 
-.header {
+/* .container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+} */
+/*==============Header Common==============*/
+
+/* .header {
   border-bottom: 1px solid #ececec;
 }
 
@@ -162,10 +175,10 @@ body {
   background-color: var(--accent-color);
   left: 0;
   bottom: 0;
-}
+} */
 
 /*==============HERO Portfolio==============*/
-.hero {
+/* .hero {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -303,9 +316,13 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--second-color-text);
-}
+} */
 
-/*==============HERO Comand==============*/
+
+
+/*==============HERO Studia Comand==============*/
+
+
 .comand {
   background-color: #2f303a;
   text-align: center;
@@ -376,18 +393,6 @@ body {
   width: 270px;
 }
 
-.vissualy-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  bottom: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
 
 .quality {
   font-weight: 700;
