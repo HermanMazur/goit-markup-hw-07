@@ -21,7 +21,6 @@ img {
   display: block;
 } */
 
-
 /* :root {
   --first-color-text: #212121;
   --second-color-text: #757575;
@@ -318,10 +317,7 @@ img {
   color: var(--second-color-text);
 } */
 
-
-
 /*==============HERO Studia Comand==============*/
-
 
 .comand {
   background-color: #2f303a;
@@ -353,7 +349,7 @@ img {
   margin: 0 auto 30px;
 }
 
-.comand-btn {
+/* .comand-btn {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -375,7 +371,7 @@ img {
 .comand-btn:hover,
 .comand-btn:focus {
   background-color: #188ce8;
-}
+} */
 
 .quality-section {
   padding-top: 94px;
@@ -392,7 +388,6 @@ img {
   /* flex-basis: calc(100% / 4 - 30px); */
   width: 270px;
 }
-
 
 .quality {
   font-weight: 700;
@@ -628,23 +623,23 @@ img {
 }
 
 /*----------FOOTER----------*/
-.footer {
-  /* width: 100%; */
+
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
-}
+} */
 
-.container-footer {
+/* .container-footer {
   display: flex;
   align-items: baseline;
-}
+} */
 
 /* .footer-navigator {
   min-width: 231px;
 } */
 
-.web1 {
+/* .web1 {
   color: var(--third-color-text);
 }
 
@@ -660,9 +655,9 @@ img {
   color: var(--third-color-text);
   margin-bottom: 9px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.footer-mail,
+/* .footer-mail,
 .footer-tel {
   font-size: 14px;
   line-height: 1.71;
@@ -679,9 +674,9 @@ img {
 .footer-tel:hover,
 .footer-tel:focus {
   color: var(--third-color-text);
-}
+} */
 
-.footer-map:hover,
+/* .footer-map:hover,
 .footer-map:focus {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -711,9 +706,9 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.social-icon-footer {
+/* .social-icon-footer {
   fill: currentColor;
 }
 
@@ -740,9 +735,9 @@ img {
 .footer-email-online {
   width: 570px;
   margin-left: 93px;
-}
+} */
 
-.btn-input {
+/* .btn-input {
   display: flex;
 }
 
@@ -763,9 +758,9 @@ img {
 
 .online-title:focus {
   border-color: var(--accent-color);
-}
+} */
 
-.online-email {
+/* .online-email {
   outline: none;
   background-color: transparent;
   width: 358px;
@@ -781,7 +776,7 @@ img {
 
 .online-email:focus {
   border-color: var(--accent-color);
-}
+}  */
 
 /*----------------------backdrop------------------------*/
 
@@ -847,7 +842,6 @@ img {
 }
 
 .modal-title {
-  /* padding-top: 40px; */
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
