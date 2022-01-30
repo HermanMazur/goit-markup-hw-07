@@ -153,6 +153,9 @@
 
 .icon-check {
   fill: transparent;
+  .policy-check:checked + .check-text & {
+    fill: var(--third-color-text);
+  }
 }
 
 .policy-check:checked + .check-text span {
@@ -160,6 +163,6 @@
   background-color: var(--accent-color);
 }
 
-.policy-check:checked + .check-text .icon-check {
-  fill: var(--third-color-text);
-}
+// .policy-check:checked + .check-text .icon-check {
+//   fill: var(--third-color-text);
+// }
