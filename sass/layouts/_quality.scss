@@ -8,11 +8,6 @@
   margin-right: -30px;
 }
 
-.quality-item {
-  margin-right: 30px;
-  width: 270px;
-}
-
 .quality {
   font-weight: 700;
   font-size: 14px;
@@ -30,15 +25,19 @@
   color: var(--second-color-text);
 }
 
-.quality-item::before {
-  content: "";
-  background-color: #f5f4fa;
-  height: 120px;
-  display: block;
-  background-position: center;
-  background-size: 70px;
-  background-repeat: no-repeat;
-  margin-bottom: 30px;
+.quality-item {
+  margin-right: 30px;
+  width: 270px;
+  &::before {
+    content: "";
+    background-color: #f5f4fa;
+    height: 120px;
+    display: block;
+    background-position: center;
+    background-size: 70px;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+  }
 }
 
 .quality-item:nth-child(1)::before {
