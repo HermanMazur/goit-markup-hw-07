@@ -21,7 +21,8 @@
     <header class="header">
         <div class="container header__container">
             <nav class="header-nav">
-                <a class="header-nav__logo link" href=""><span class="web">Web</span>Studio</a>
+                <!-- header-logo -->
+                <a class="logo link" href=""><span class="web">Web</span>Studio</a>
                 <ul class="list site-list">
                     <li class="site-list__item">
                         <a class="link site-list__link current" href="./index.html">Студия</a></li>
@@ -264,7 +265,7 @@
             <h2 class="titel-company">Постоянные клиенты</h2>
             <ul class="clients list">
                 <li class="clients__item"> <a class="clients__link" href="">
-                    <svg class="clients__icon" width="106" height="60" >
+                    <svg class="company-icon" width="106" height="60" >
                         <use href="images/icons.svg#icon-Logo-yaco"></use> 
                     </svg>
                 </a> </li>
@@ -308,16 +309,17 @@
     <footer class="footer">
         <div class="container container-footer">
             <div>
-        <a class="link footer-logo" href=""> <span class="web">Web</span><span class="web1">Studio</span></a>
-        <ul class="list footer-navig-list">
-            <li class="footer-navig-item">
-                <a class="link footer-map" href="https://goo.gl/maps/RkW2CKU7V92x7Unu9" target="_blank"
+        <a class="link logo" href=""> <span class="web">Web</span><span class="web1">Studio</span></a>
+        <ul class="list ourconnect">
+            <li class="ourconnect__item">
+                <a class="link ourconnect__map" href="https://goo.gl/maps/RkW2CKU7V92x7Unu9" target="_blank"
                     rel="noopener norefferer">г. Киев, пр-т Леси Украинки, 26</a>
             </li>
-            <li class="footer-navig-item">
-                <a class="link footer-mail" href="mailto:info@example.com">info@example.com</a>
+            <li class="ourconnect__item">
+                <a class="link ourconnect__mail" href="mailto:info@example.com">info@example.com</a>
             </li>
-            <li class="footer-navig-item"><a class="link footer-tel" href="tel:+380991111111">+38 099 111 11 11</a>
+            <li class="ourconnect__item">
+                <a class="link ourconnect__tel" href="tel:+380991111111">+38 099 111 11 11</a>
             </li>
         </ul>
             </div>
@@ -368,7 +370,7 @@
         </div>
     </footer>
 
-
+    <!--backdrop section-->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close" data-modal-close>

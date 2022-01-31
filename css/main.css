@@ -326,8 +326,7 @@ body {
   align-items: center;
 }
 
-.header-nav__logo,
-.footer-logo {
+.logo {
   font-family: Raleway;
   font-style: normal;
   font-weight: 700px;
@@ -512,12 +511,15 @@ body {
   color: var(--third-color-text);
 }
 
-.footer-logo {
+.logo {
   display: block;
-  margin-bottom: 20px;
 }
 
-.footer-map {
+.ourconnect {
+  margin-top: 20px;
+}
+
+.ourconnect__map {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -526,11 +528,11 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-map:hover, .footer-map:focus {
+.ourconnect__map:hover, .ourconnect__map:focus {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-tel {
+.ourconnect__tel {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -538,11 +540,11 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-tel:hover, .footer-tel:focus {
+.ourconnect__tel:hover, .ourconnect__tel:focus {
   color: var(--third-color-text);
 }
 
-.footer-mail {
+.ourconnect__mail {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -550,12 +552,11 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-mail:hover, .footer-mail:focus {
+.ourconnect__mail:hover, .ourconnect__mail:focus {
   color: var(--third-color-text);
 }
 
-.footer-map,
-.footer-mail {
+.ourconnect__item:not(:last-child) {
   margin-bottom: 9px;
 }
 

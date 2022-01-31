@@ -17,12 +17,15 @@
   color: var(--third-color-text);
 }
 
-.footer-logo {
+.logo {
   display: block;
-  margin-bottom: 20px;
 }
 
-.footer-map {
+.ourconnect {
+  margin-top: 20px;
+}
+
+.ourconnect__map {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -35,7 +38,7 @@
   }
 }
 
-.footer-tel {
+.ourconnect__tel {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -47,7 +50,7 @@
   }
 }
 
-.footer-mail {
+.ourconnect__mail {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -59,8 +62,7 @@
   }
 }
 
-.footer-map,
-.footer-mail {
+.ourconnect__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
