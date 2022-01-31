@@ -17,15 +17,15 @@
   margin-bottom: 50px;
 }
 
-.company-list {
+.clients {
   display: flex;
 }
 
-.company-item:not(:last-child) {
+.clients__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.company-link {
+.clients__link {
   display: flex;
   width: 170px;
   height: 92px;
@@ -44,6 +44,6 @@
   }
 }
 
-.company-icon {
+.clients__icon {
   fill: currentColor;
 }
