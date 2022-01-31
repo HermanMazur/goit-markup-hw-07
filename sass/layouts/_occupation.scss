@@ -1,4 +1,4 @@
-.occupation {
+.actions {
   padding-top: 0;
   padding-bottom: 94px;
 }
@@ -20,17 +20,17 @@
   margin-right: -30px;
 }
 
-.occupation-item {
+.occupation-list__item {
   width: calc(100% / 3 - 30px);
   margin-right: 30px;
 }
 
-.occupation-item-wrap {
+.occupation-list__wrap {
   position: relative;
   overflow: hidden;
 }
 
-.occupation-text {
+.occupation-list__text {
   position: absolute;
   left: 0;
   bottom: 0;

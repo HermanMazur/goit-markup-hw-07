@@ -1,4 +1,4 @@
-.quality-section {
+.advantage {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -8,7 +8,7 @@
   margin-right: -30px;
 }
 
-.quality {
+.quality-list__one {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -18,14 +18,14 @@
   margin-bottom: 10px;
 }
 
-.quality-text {
+.quality-list__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-color-text);
 }
 
-.quality-item {
+.quality-list__item {
   margin-right: 30px;
   width: 270px;
   &::before {
@@ -40,18 +40,18 @@
   }
 }
 
-.quality-item:nth-child(1)::before {
+.quality-list__item:nth-child(1)::before {
   background-image: url(../images/antenna.svg);
 }
 
-.quality-item:nth-child(2)::before {
+.quality-list__item:nth-child(2)::before {
   background-image: url(../images/clock.svg);
 }
 
-.quality-item:nth-child(3)::before {
+.quality-list__item:nth-child(3)::before {
   background-image: url(../images/diagram.svg);
 }
 
-.quality-item:nth-child(4)::before {
+.quality-list__item:nth-child(4)::before {
   background-image: url(../images/astronaut.svg);
 }
